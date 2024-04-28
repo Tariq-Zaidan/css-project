@@ -103,11 +103,13 @@ hr{
 
 .body-builder > img{  
     width: 200px;
+
 }
 
-.typing > video{
+.typing > img{
     width: 200px;
-    border-radius: 50%;
+    height: 110%;
+    border-radius: 10%; 
 }
 
 .smile{
