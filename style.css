@@ -27,32 +27,32 @@ h1{
     font-family: "Grand Hotel", cursive;
 }
 
+.title-text{
+    font-size: 4rem;
+}
+
 h2{
     font-size: 2.5rem;
     padding: 50px;
 }
 
 h2, h3{
-    font-family:sans-serif
+    font-family:sans-serif;
 }
 
 p{
     color: black;
+    font-size: large;
     font-family: serif;
     margin: 0;
 }
 
-.title-text{
-    font-size: 4rem;
-    color: rgb(0, 72, 24);
-}
-
 .Mountain{
     width: 45%;
-    min-width: 450px;
+    min-width: 550px;
     margin: 0;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
 }
     
 .stars1{
@@ -82,9 +82,6 @@ p{
 
 .intro{
     width: 30%;
-    font-size: large;
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 hr{
@@ -150,8 +147,22 @@ hr{
 }
 
 @media (max-width: 600px) {
+    .top-container{
+        height: 80vh;
+    }
+
+    .title-text{
+        position: absolute;
+        top: 100px;
+    }
+    
     h1{
         font-size: 3.5rem;
+    }
+
+    .Mountain{
+        width: 50%;
+        min-width: 450px;
     }
 
     .stars1 , .stars2{
@@ -165,6 +176,10 @@ hr{
 
     .top-container{
         padding-top: 200px ;
+    }
+
+    .intro{
+        width: 50%;
     }
 
     .skills{
@@ -190,6 +205,8 @@ hr{
     .contact-button{
         font-size: large;
         margin-bottom: 50px;
+        font-weight: lighter ;
+        text-transform: lowercase;
     }
 
     hr{
